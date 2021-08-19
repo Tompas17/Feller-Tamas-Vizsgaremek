@@ -4,43 +4,43 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-import pages.MainPage;
+import pages.*;
 import util.DriverUtil;
 
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 public class WikipediaTests {
-private WebDriver webDriver;
+private WebDriver driver;
 private DriverUtil driverUtil;
-private MainPage homePage;
+MenuPage menuPage;
+MainPage mainPage;
+LogInPage loginPage;
+protected String username = "AutiTest";
+protected String password = "Codecool123";
 
 
 
 
     @BeforeEach
     public void setWebDriver() {
+        driver.get("https://www.wikipedia.org/");
         driverUtil = new DriverUtil();
-        webDriver = driverUtil.getWebDriver();
+        driver = driverUtil.GetWebDriver();
     }
 
     @Test
-    public void goHomePageTest() {
-        homePage = new MainPage(webDriver);
-        assertTrue(homePage.goToHomePage());
-    }
-
-    @Test
-    public void addShowListTest() {
-        homePage = new MainPage(webDriver);
-        homePage.goToHomePage();
-        assertTrue( homePage.addShowList());
+    public void logInValid() {
+        menuPage.ClickEnglishButton();
+        mainPage.goToLoginPage();
+        loginPage.typeUserName(username);
+        loginPage.typePassword(password);
+        loginPage.clickLogIn();
 
     }
+
 
     @AfterEach
     public void quitWebDriver() {
-        webDriver.quit();
+        driver.quit();
     }
 }
 
