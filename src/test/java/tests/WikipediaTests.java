@@ -13,27 +13,31 @@ private WebDriver driver;
 private DriverUtil driverUtil;
 MenuPage menuPage;
 MainPage mainPage;
-LogInPage loginPage;
 protected String username = "AutiTest";
 protected String password = "Codecool123";
+
+public WebDriver getDriver() {
+    return driver;
+}
 
 
 
 
     @BeforeEach
     public void setWebDriver() {
-        driver.get("https://www.wikipedia.org/");
         driverUtil = new DriverUtil();
         driver = driverUtil.GetWebDriver();
     }
 
     @Test
     public void logInValid() {
-        menuPage.ClickEnglishButton();
+        menuPage = new MenuPage(getDriver());
+        menuPage.goToWikiPedia();
+        mainPage = menuPage.ClickEnglishButton();
         mainPage.goToLoginPage();
-        loginPage.typeUserName(username);
-        loginPage.typePassword(password);
-        loginPage.clickLogIn();
+        mainPage.typeUserName(username);
+        mainPage.typePassword(password);
+        mainPage.clickLogIn();
 
     }
 

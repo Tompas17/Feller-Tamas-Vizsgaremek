@@ -12,33 +12,33 @@ import java.util.List;
 
 public class MainPage {
     private WebDriver driver;
+    private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private By HOME_PAGE = By.xpath("//*[@id=\"p-logo\"]/a");
     private By LOG_IN_BUTTON = By.xpath("//*[@id=\"pt-login\"]/a");
     private By SHOW_LIST = By.xpath("//*[@id=\"p-navigation\"]/div/ul");
+    private By USER_NAME_INPUT = By.id("wpName1");
+    private By PASSWORD_INPUT = By.id("wpPassword1");
+    private By LOG_IN = By.id("wpLoginAttempt");
+    private By POP_UP = By.xpath("//*[@id=\"mw-gettingstarted-cta-other-page\"]/a[1]");
 
-    public boolean isLoginButtonVisible(){
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, 5);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(LOG_IN_BUTTON));
-        }catch (Exception e){
-            return false;
-        }
-        return true;
+    public MainPage(WebDriver driver) {
+        this.driver = driver;
     }
-
     public void goToLoginPage() {
         driver.findElement(LOG_IN_BUTTON).click();
     }
 
-   /* public boolean addShowList() {
-        WebElement showList = driver.findElement(SHOW_LIST);
-        List<WebElement> elements = new ArrayList<>();
-        elements = showList.findElements(By.xpath("./li"));
-        if (elements.size()!= 0) return true;
-        else return false;
-    } */
-    public MainPage(WebDriver webDriver) {
-        this.driver = driver;
+    public void typeUserName(String username) {
+        driver.findElement(USER_NAME_INPUT).sendKeys(username);
     }
+
+    public void typePassword(String password) {
+        driver.findElement(USER_NAME_INPUT).sendKeys(password);
+    }
+
+    public void clickLogIn () {
+        driver.findElement(LOG_IN).click();
+    }
+
 
 }
