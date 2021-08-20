@@ -1,14 +1,9 @@
 package pages;
 
-import net.bytebuddy.agent.builder.AgentBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainPage {
     private WebDriver driver;
@@ -20,6 +15,8 @@ public class MainPage {
     private By PASSWORD_INPUT = By.id("wpPassword1");
     private By LOG_IN = By.id("wpLoginAttempt");
     private By POP_UP = By.xpath("//*[@id=\"mw-gettingstarted-cta-other-page\"]/a[1]");
+    private By ERROR = By.xpath("//*[@id=\"userloginForm\"]/form/div[1]");
+    private By LOG_OUT = By.xpath("//*[@id=\"pt-logout\"]/a");
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -33,12 +30,21 @@ public class MainPage {
     }
 
     public void typePassword(String password) {
-        driver.findElement(USER_NAME_INPUT).sendKeys(password);
+        driver.findElement(PASSWORD_INPUT).sendKeys(password);
     }
 
     public void clickLogIn () {
         driver.findElement(LOG_IN).click();
     }
 
-
+    public boolean isLoggedIn() {
+        WebElement logOut = driver.findElement(LOG_OUT);
+        if (logOut.isDisplayed()) return true;
+        else return false;
+    }
+    public boolean inValidLog() {
+        WebElement error = driver.findElement(ERROR);
+        if (error.isDisplayed()) return true;
+        else return false;
+    }
 }
