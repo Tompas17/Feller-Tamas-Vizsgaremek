@@ -17,10 +17,14 @@ public class MainPage {
     private By POP_UP = By.xpath("//*[@id=\"mw-gettingstarted-cta-other-page\"]/a[1]");
     private By ERROR = By.xpath("//*[@id=\"userloginForm\"]/form/div[1]");
     private By LOG_OUT = By.xpath("//*[@id=\"pt-logout\"]/a");
+    private By SEARCH_INPUT = By.xpath("//*[@id=\"searchInput\"]");
+    private By SEARCH_BUTTON = By.xpath("//*[@id=\"searchButton\"]");
+    private By USER_PAGE = By.xpath("//*[@id=\"pt-userpage\"]/a");
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
     }
+
     public void goToLoginPage() {
         driver.findElement(LOG_IN_BUTTON).click();
     }
@@ -33,7 +37,7 @@ public class MainPage {
         driver.findElement(PASSWORD_INPUT).sendKeys(password);
     }
 
-    public void clickLogIn () {
+    public void clickLogIn() {
         driver.findElement(LOG_IN).click();
     }
 
@@ -42,9 +46,21 @@ public class MainPage {
         if (logOut.isDisplayed()) return true;
         else return false;
     }
+
     public boolean inValidLog() {
         WebElement error = driver.findElement(ERROR);
         if (error.isDisplayed()) return true;
         else return false;
     }
+
+    public McDonaldsPage goToMcDonaldsPage(String car) {
+        driver.findElement(SEARCH_INPUT).sendKeys("McDonalds");
+        driver.findElement(SEARCH_BUTTON).click();
+        return new McDonaldsPage(driver);
+    }
+
+    public void goToUserPage () {
+        driver.findElement(USER_PAGE).click();
+    }
+
 }
