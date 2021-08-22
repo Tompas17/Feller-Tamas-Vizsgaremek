@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gyakorlas" />
-        <module name="Feller-Tamas-Vizsgaremek" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="workflows" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

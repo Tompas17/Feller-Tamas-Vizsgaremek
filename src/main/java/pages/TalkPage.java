@@ -8,7 +8,7 @@ public class TalkPage {
     private WebDriver driver;
     private final By NEW_SECTION = By.id("ca-addsection");
     private final By HEADLINE = By.id("wpSummary");
-    private final By TEXT_BOX = By.id("wpTextbox");
+    private final By TEXT_BOX = By.xpath("//*[@id=\"wpTextbox1\"]");
     private final By PUBLISH_PAGE_BUTTON = By.id("wpSave");
     private final By EDIT_SOURCE = By.id("ca-edit");
 
