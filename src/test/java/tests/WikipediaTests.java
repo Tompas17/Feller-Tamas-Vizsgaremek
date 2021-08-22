@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pages.*;
 import util.DriverUtil;
 
@@ -37,6 +39,12 @@ public WebDriver getDriver() {
     public void setWebDriver() {
         driverUtil = new DriverUtil();
         driver = driverUtil.GetWebDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("start-maximized"); // teljes képernyőőben való használat
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
     }
 
     @Test
