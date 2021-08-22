@@ -1,0 +1,61 @@
+[ {
+  "uid" : "b7e32a062371bf1e",
+  "name" : "logInInValidTest()",
+  "time" : {
+    "start" : 1629655448521,
+    "stop" : 1629655448665,
+    "duration" : 144
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96590e9f0ac4022a",
+  "name" : "logInValidTest()",
+  "time" : {
+    "start" : 1629655449074,
+    "stop" : 1629655449213,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c73149f43d4ccd9",
+  "name" : "newPage()",
+  "time" : {
+    "start" : 1629655448941,
+    "stop" : 1629655449070,
+    "duration" : 129
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "382d2b6c889a2967",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1629655448805,
+    "stop" : 1629655448938,
+    "duration" : 133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea244ed9b26ac993",
+  "name" : "addShowListTest()",
+  "time" : {
+    "start" : 1629655441384,
+    "stop" : 1629655448459,
+    "duration" : 7075
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1077e8f7893e07eb",
+  "name" : "PrivacyPolicyTest()",
+  "time" : {
+    "start" : 1629655448669,
+    "stop" : 1629655448800,
+    "duration" : 131
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Aug 22 18:04:09 GMT 2021","Sun Aug 22 18:04:09 GMT 2021","139","","tests.WikipediaTests","","tests.WikipediaTests","logInValidTest","logInValidTest()",""
+"broken","Sun Aug 22 18:04:01 GMT 2021","Sun Aug 22 18:04:08 GMT 2021","7075","","tests.WikipediaTests","","tests.WikipediaTests","addShowListTest","addShowListTest()",""
+"broken","Sun Aug 22 18:04:08 GMT 2021","Sun Aug 22 18:04:08 GMT 2021","131","","tests.WikipediaTests","","tests.WikipediaTests","PrivacyPolicyTest","PrivacyPolicyTest()",""
+"broken","Sun Aug 22 18:04:08 GMT 2021","Sun Aug 22 18:04:09 GMT 2021","129","","tests.WikipediaTests","","tests.WikipediaTests","newPage","newPage()",""
+"broken","Sun Aug 22 18:04:08 GMT 2021","Sun Aug 22 18:04:08 GMT 2021","133","","tests.WikipediaTests","","tests.WikipediaTests","logOutTest","logOutTest()",""
+"broken","Sun Aug 22 18:04:08 GMT 2021","Sun Aug 22 18:04:08 GMT 2021","144","","tests.WikipediaTests","","tests.WikipediaTests","logInInValidTest","logInInValidTest()",""
