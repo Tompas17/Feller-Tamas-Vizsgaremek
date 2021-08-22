@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "addShowListTest()",
+    "uid" : "34e8836dba50a62e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629655616901,
+      "stop" : 1629655618746,
+      "duration" : 1845
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "logInInValidTest()",
+    "uid" : "3fe925ff92508472",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629655618864,
+      "stop" : 1629655619068,
+      "duration" : 204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PrivacyPolicyTest()",
+    "uid" : "2e11d7b897633fdb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629655619084,
+      "stop" : 1629655619242,
+      "duration" : 158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "logOutTest()",
+    "uid" : "552a80367d91675",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629655619249,
+      "stop" : 1629655619386,
+      "duration" : 137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "newPage()",
+    "uid" : "4882c21c5e315b5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629655619402,
+      "stop" : 1629655619551,
+      "duration" : 149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "logInValidTest()",
+    "uid" : "f0394b0e8f1fc43d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629655619560,
+      "stop" : 1629655619711,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
