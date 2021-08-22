@@ -39,12 +39,7 @@ public WebDriver getDriver() {
     public void setWebDriver() {
         driverUtil = new DriverUtil();
         driver = driverUtil.GetWebDriver();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized"); // teljes képernyőőben való használat
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+
     }
 
     @Test
