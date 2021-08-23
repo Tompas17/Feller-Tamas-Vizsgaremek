@@ -5,21 +5,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
+
 public class MainPage {
-    private WebDriver driver;
-    private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
-    private By HOME_PAGE = By.xpath("//*[@id=\"p-logo\"]/a");
-    private By LOG_IN_BUTTON = By.xpath("//*[@id=\"pt-login\"]/a");
-    private By SHOW_LIST = By.xpath("//*[@id=\"p-navigation\"]/div/ul");
-    private By USER_NAME_INPUT = By.id("wpName1");
-    private By PASSWORD_INPUT = By.id("wpPassword1");
-    private By LOG_IN = By.id("wpLoginAttempt");
-    private By POP_UP = By.xpath("//*[@id=\"mw-gettingstarted-cta-other-page\"]/a[1]");
-    private By ERROR = By.xpath("//*[@id=\"userloginForm\"]/form/div[1]");
-    private By LOG_OUT = By.xpath("//*[@id=\"pt-logout\"]/a");
-    private By SEARCH_INPUT = By.xpath("//*[@id=\"searchInput\"]");
-    private By SEARCH_BUTTON = By.xpath("//*[@id=\"searchButton\"]");
-    private By USER_PAGE = By.xpath("//*[@id=\"pt-userpage\"]/a");
+    private final WebDriver driver;
+    private final By LOG_IN_BUTTON = By.xpath("//*[@id=\"pt-login\"]/a");
+    private final By USER_NAME_INPUT = By.id("wpName1");
+    private final By PASSWORD_INPUT = By.id("wpPassword1");
+    private final By LOG_IN = By.id("wpLoginAttempt");
+    private final By ERROR = By.xpath("//*[@id=\"userloginForm\"]/form/div[1]");
+    private final By LOG_OUT = By.xpath("//*[@id=\"pt-logout\"]/a");
+    private final By SEARCH_INPUT = By.xpath("//*[@id=\"searchInput\"]");
+    private final By SEARCH_BUTTON = By.xpath("//*[@id=\"searchButton\"]");
+    private final By USER_PAGE = By.xpath("//*[@id=\"pt-userpage\"]/a");
+
 
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -43,17 +41,15 @@ public class MainPage {
 
     public boolean isLoggedIn() {
         WebElement logOut = driver.findElement(LOG_OUT);
-        if (logOut.isDisplayed()) return true;
-        else return false;
+        return logOut.isDisplayed();
     }
 
     public boolean inValidLog() {
         WebElement error = driver.findElement(ERROR);
-        if (error.isDisplayed()) return true;
-        else return false;
+        return error.isDisplayed();
     }
 
-    public McDonaldsPage goToMcDonaldsPage(String car) {
+    public McDonaldsPage goToMcDonaldsPage(String page) {
         driver.findElement(SEARCH_INPUT).sendKeys("McDonalds");
         driver.findElement(SEARCH_BUTTON).click();
         return new McDonaldsPage(driver);
@@ -62,5 +58,4 @@ public class MainPage {
     public void goToUserPage () {
         driver.findElement(USER_PAGE).click();
     }
-
 }
