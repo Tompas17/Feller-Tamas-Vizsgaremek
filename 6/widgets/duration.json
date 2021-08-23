@@ -1,0 +1,101 @@
+[ {
+  "uid" : "673e2aa4df457e49",
+  "name" : "TC-1, Log in with valid datas.",
+  "time" : {
+    "start" : 1629717286534,
+    "stop" : 1629717286723,
+    "duration" : 189
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0ffb92c2dcbb9fd",
+  "name" : "TC-4, Privacy and policy.",
+  "time" : {
+    "start" : 1629717284980,
+    "stop" : 1629717285235,
+    "duration" : 255
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "13261e0b98d64255",
+  "name" : "TC-3, Log out.",
+  "time" : {
+    "start" : 1629717285256,
+    "stop" : 1629717285418,
+    "duration" : 162
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cf97a0142de53844",
+  "name" : "TC-10, Write data from file.",
+  "time" : {
+    "start" : 1629717285423,
+    "stop" : 1629717285620,
+    "duration" : 197
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff3592e6a018458d",
+  "name" : "TC-9, Save data to file.",
+  "time" : {
+    "start" : 1629717285633,
+    "stop" : 1629717285859,
+    "duration" : 226
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea0733bc607bbd19",
+  "name" : "TC-2, Log in with invalid datas.",
+  "time" : {
+    "start" : 1629717284714,
+    "stop" : 1629717284959,
+    "duration" : 245
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9e801c680f5245ae",
+  "name" : "TC-8, Data delete.",
+  "time" : {
+    "start" : 1629717286062,
+    "stop" : 1629717286288,
+    "duration" : 226
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1c55812b393ceba9",
+  "name" : "TC-7, Data edit.",
+  "time" : {
+    "start" : 1629717285886,
+    "stop" : 1629717286049,
+    "duration" : 163
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dbd22fbd5b82581a",
+  "name" : "TC-5, Listing data from a table.",
+  "time" : {
+    "start" : 1629717278257,
+    "stop" : 1629717284608,
+    "duration" : 6351
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18277b0ad39f88b9",
+  "name" : "TC-6, Data entry.",
+  "time" : {
+    "start" : 1629717286297,
+    "stop" : 1629717286524,
+    "duration" : 227
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
