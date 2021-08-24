@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az47-737",
+    "children" : [ {
+      "name" : "2825@fv-az47-737.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "TC-6, Data entry.",
+        "uid" : "304d22f4cb8bddbd",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691792,
+          "stop" : 1629803691925,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-3, Log out.",
+        "uid" : "ab446041ec375067",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691025,
+          "stop" : 1629803691163,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-2, Log in with invalid datas.",
+        "uid" : "8a1ef42daccb7284",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803690643,
+          "stop" : 1629803690856,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-5, Listing data from a table.",
+        "uid" : "d664bb105f357a7",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803686086,
+          "stop" : 1629803690539,
+          "duration" : 4453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-9, Save data to file.",
+        "uid" : "350add4620ec2e62",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691334,
+          "stop" : 1629803691479,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-7, Data edit.",
+        "uid" : "cee7bb6b8ad5504c",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691487,
+          "stop" : 1629803691633,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-1, Log in with valid datas.",
+        "uid" : "5e1abf2e44c0da04",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691930,
+          "stop" : 1629803692062,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-10, Write data from file.",
+        "uid" : "3bdbfa3796aea016",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691177,
+          "stop" : 1629803691320,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-4, Privacy and policy.",
+        "uid" : "f1b8fbc0d2a203e9",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803690864,
+          "stop" : 1629803691008,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-8, Data delete.",
+        "uid" : "a98aa0678ef1d756",
+        "parentUid" : "d4d1a7e94aa130f426b2d2d897211264",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691637,
+          "stop" : 1629803691786,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4d1a7e94aa130f426b2d2d897211264"
+    } ],
+    "uid" : "0bd03d97a83b8d8be5d666052955d221"
+  } ],
+  "name" : "timeline"
+}

@@ -1,0 +1,179 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55afe544aa63 <unknown>\n#1 0x55afe51bf458 <unknown>\n#2 0x55afe51e22e3 <unknown>\n#3 0x55afe51dde9f <unknown>\n#4 0x55afe5217b72 <unknown>\n#5 0x55afe5211fd3 <unknown>\n#6 0x55afe51e8514 <unknown>\n#7 0x55afe51e9505 <unknown>\n#8 0x55afe5476e2e <unknown>\n#9 0x55afe548c886 <unknown>\n#10 0x55afe5477d75 <unknown>\n#11 0x55afe548dd94 <unknown>\n#12 0x55afe546e8eb <unknown>\n#13 0x55afe54a8cd8 <unknown>\n#14 0x55afe54a8e58 <unknown>\n#15 0x55afe54c2dfd <unknown>\n#16 0x7f079a97f609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-5, Listing data from a table.",
+        "uid" : "d664bb105f357a7",
+        "parentUid" : "c0d19a2966ffbaaf28132b6a80353f87",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803686086,
+          "stop" : 1629803690539,
+          "duration" : 4453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0d19a2966ffbaaf28132b6a80353f87"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55686b927a63 <unknown>\n#1 0x55686b69c458 <unknown>\n#2 0x55686b6bf2e3 <unknown>\n#3 0x55686b6bae9f <unknown>\n#4 0x55686b6f4b72 <unknown>\n#5 0x55686b6eefd3 <unknown>\n#6 0x55686b6c5514 <unknown>\n#7 0x55686b6c6505 <unknown>\n#8 0x55686b953e2e <unknown>\n#9 0x55686b969886 <unknown>\n#10 0x55686b954d75 <unknown>\n#11 0x55686b96ad94 <unknown>\n#12 0x55686b94b8eb <unknown>\n#13 0x55686b985cd8 <unknown>\n#14 0x55686b985e58 <unknown>\n#15 0x55686b99fdfd <unknown>\n#16 0x7f7e830ba609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-2, Log in with invalid datas.",
+        "uid" : "8a1ef42daccb7284",
+        "parentUid" : "291b07e1378034d0d0c694d6e9a89659",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803690643,
+          "stop" : 1629803690856,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "291b07e1378034d0d0c694d6e9a89659"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bfa1353a63 <unknown>\n#1 0x55bfa10c8458 <unknown>\n#2 0x55bfa10eb2e3 <unknown>\n#3 0x55bfa10e6e9f <unknown>\n#4 0x55bfa1120b72 <unknown>\n#5 0x55bfa111afd3 <unknown>\n#6 0x55bfa10f1514 <unknown>\n#7 0x55bfa10f2505 <unknown>\n#8 0x55bfa137fe2e <unknown>\n#9 0x55bfa1395886 <unknown>\n#10 0x55bfa1380d75 <unknown>\n#11 0x55bfa1396d94 <unknown>\n#12 0x55bfa13778eb <unknown>\n#13 0x55bfa13b1cd8 <unknown>\n#14 0x55bfa13b1e58 <unknown>\n#15 0x55bfa13cbdfd <unknown>\n#16 0x7f4b44e95609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-4, Privacy and policy.",
+        "uid" : "f1b8fbc0d2a203e9",
+        "parentUid" : "df5d5d32e1fe8789e588a428b101f9de",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803690864,
+          "stop" : 1629803691008,
+          "duration" : 144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df5d5d32e1fe8789e588a428b101f9de"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55ffbff72a63 <unknown>\n#1 0x55ffbfce7458 <unknown>\n#2 0x55ffbfd0a2e3 <unknown>\n#3 0x55ffbfd05e9f <unknown>\n#4 0x55ffbfd3fb72 <unknown>\n#5 0x55ffbfd39fd3 <unknown>\n#6 0x55ffbfd10514 <unknown>\n#7 0x55ffbfd11505 <unknown>\n#8 0x55ffbff9ee2e <unknown>\n#9 0x55ffbffb4886 <unknown>\n#10 0x55ffbff9fd75 <unknown>\n#11 0x55ffbffb5d94 <unknown>\n#12 0x55ffbff968eb <unknown>\n#13 0x55ffbffd0cd8 <unknown>\n#14 0x55ffbffd0e58 <unknown>\n#15 0x55ffbffeadfd <unknown>\n#16 0x7f4922fa4609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-3, Log out.",
+        "uid" : "ab446041ec375067",
+        "parentUid" : "2ecd3f59e000aff6b34d520fc52e4cb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691025,
+          "stop" : 1629803691163,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ecd3f59e000aff6b34d520fc52e4cb4"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555aca38ca63 <unknown>\n#1 0x555aca101458 <unknown>\n#2 0x555aca1242e3 <unknown>\n#3 0x555aca11fe9f <unknown>\n#4 0x555aca159b72 <unknown>\n#5 0x555aca153fd3 <unknown>\n#6 0x555aca12a514 <unknown>\n#7 0x555aca12b505 <unknown>\n#8 0x555aca3b8e2e <unknown>\n#9 0x555aca3ce886 <unknown>\n#10 0x555aca3b9d75 <unknown>\n#11 0x555aca3cfd94 <unknown>\n#12 0x555aca3b08eb <unknown>\n#13 0x555aca3eacd8 <unknown>\n#14 0x555aca3eae58 <unknown>\n#15 0x555aca404dfd <unknown>\n#16 0x7f2955965609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-10, Write data from file.",
+        "uid" : "3bdbfa3796aea016",
+        "parentUid" : "311d4f363f08ce17b2acbebd81f74784",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691177,
+          "stop" : 1629803691320,
+          "duration" : 143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "311d4f363f08ce17b2acbebd81f74784"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x559e50aaea63 <unknown>\n#1 0x559e50823458 <unknown>\n#2 0x559e508462e3 <unknown>\n#3 0x559e50841e9f <unknown>\n#4 0x559e5087bb72 <unknown>\n#5 0x559e50875fd3 <unknown>\n#6 0x559e5084c514 <unknown>\n#7 0x559e5084d505 <unknown>\n#8 0x559e50adae2e <unknown>\n#9 0x559e50af0886 <unknown>\n#10 0x559e50adbd75 <unknown>\n#11 0x559e50af1d94 <unknown>\n#12 0x559e50ad28eb <unknown>\n#13 0x559e50b0ccd8 <unknown>\n#14 0x559e50b0ce58 <unknown>\n#15 0x559e50b26dfd <unknown>\n#16 0x7fe3b49cc609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-9, Save data to file.",
+        "uid" : "350add4620ec2e62",
+        "parentUid" : "a8aba2fb3eb0a9081c51fce344e6c329",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691334,
+          "stop" : 1629803691479,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8aba2fb3eb0a9081c51fce344e6c329"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x557e90b81a63 <unknown>\n#1 0x557e908f6458 <unknown>\n#2 0x557e909192e3 <unknown>\n#3 0x557e90914e9f <unknown>\n#4 0x557e9094eb72 <unknown>\n#5 0x557e90948fd3 <unknown>\n#6 0x557e9091f514 <unknown>\n#7 0x557e90920505 <unknown>\n#8 0x557e90bade2e <unknown>\n#9 0x557e90bc3886 <unknown>\n#10 0x557e90baed75 <unknown>\n#11 0x557e90bc4d94 <unknown>\n#12 0x557e90ba58eb <unknown>\n#13 0x557e90bdfcd8 <unknown>\n#14 0x557e90bdfe58 <unknown>\n#15 0x557e90bf9dfd <unknown>\n#16 0x7f04a0cf0609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-7, Data edit.",
+        "uid" : "cee7bb6b8ad5504c",
+        "parentUid" : "bbb965036407475205c0f5456e2c8623",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691487,
+          "stop" : 1629803691633,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbb965036407475205c0f5456e2c8623"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x561824cc6a63 <unknown>\n#1 0x561824a3b458 <unknown>\n#2 0x561824a5e2e3 <unknown>\n#3 0x561824a59e9f <unknown>\n#4 0x561824a93b72 <unknown>\n#5 0x561824a8dfd3 <unknown>\n#6 0x561824a64514 <unknown>\n#7 0x561824a65505 <unknown>\n#8 0x561824cf2e2e <unknown>\n#9 0x561824d08886 <unknown>\n#10 0x561824cf3d75 <unknown>\n#11 0x561824d09d94 <unknown>\n#12 0x561824cea8eb <unknown>\n#13 0x561824d24cd8 <unknown>\n#14 0x561824d24e58 <unknown>\n#15 0x561824d3edfd <unknown>\n#16 0x7fdf0ac3d609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-8, Data delete.",
+        "uid" : "a98aa0678ef1d756",
+        "parentUid" : "a3bbe398e7a2ae90d8270d907c06dde3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691637,
+          "stop" : 1629803691786,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3bbe398e7a2ae90d8270d907c06dde3"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55f8b9b3fa63 <unknown>\n#1 0x55f8b98b4458 <unknown>\n#2 0x55f8b98d72e3 <unknown>\n#3 0x55f8b98d2e9f <unknown>\n#4 0x55f8b990cb72 <unknown>\n#5 0x55f8b9906fd3 <unknown>\n#6 0x55f8b98dd514 <unknown>\n#7 0x55f8b98de505 <unknown>\n#8 0x55f8b9b6be2e <unknown>\n#9 0x55f8b9b81886 <unknown>\n#10 0x55f8b9b6cd75 <unknown>\n#11 0x55f8b9b82d94 <unknown>\n#12 0x55f8b9b638eb <unknown>\n#13 0x55f8b9b9dcd8 <unknown>\n#14 0x55f8b9b9de58 <unknown>\n#15 0x55f8b9bb7dfd <unknown>\n#16 0x7f061ebae609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-6, Data entry.",
+        "uid" : "304d22f4cb8bddbd",
+        "parentUid" : "734532d5d9ccce1b4a6d1dfaca79fd58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691792,
+          "stop" : 1629803691925,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "734532d5d9ccce1b4a6d1dfaca79fd58"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56507987ea63 <unknown>\n#1 0x5650795f3458 <unknown>\n#2 0x5650796162e3 <unknown>\n#3 0x565079611e9f <unknown>\n#4 0x56507964bb72 <unknown>\n#5 0x565079645fd3 <unknown>\n#6 0x56507961c514 <unknown>\n#7 0x56507961d505 <unknown>\n#8 0x5650798aae2e <unknown>\n#9 0x5650798c0886 <unknown>\n#10 0x5650798abd75 <unknown>\n#11 0x5650798c1d94 <unknown>\n#12 0x5650798a28eb <unknown>\n#13 0x5650798dccd8 <unknown>\n#14 0x5650798dce58 <unknown>\n#15 0x5650798f6dfd <unknown>\n#16 0x7fabad9a1609 start_thread\n",
+      "children" : [ {
+        "name" : "TC-1, Log in with valid datas.",
+        "uid" : "5e1abf2e44c0da04",
+        "parentUid" : "b75e47bd78f9634addcd27394ac9856d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629803691930,
+          "stop" : 1629803692062,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b75e47bd78f9634addcd27394ac9856d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
