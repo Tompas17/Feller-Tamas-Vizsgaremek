@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"wpTextbox1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-939', ip: '10.1.0.7', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.9yV9Bg}, goog:chromeOptions: {debuggerAddress: localhost:46409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b67c31431590790f080ce328995a21b\n*** Element info: {Using=xpath, value=//*[@id=\"wpTextbox1\"]}",
+      "children" : [ {
+        "name" : "TC-10, Write data from file.",
+        "uid" : "423393be96cd9c65",
+        "parentUid" : "6e41a90d4860be0a959497e04f2ff3fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629838096188,
+          "stop" : 1629838122415,
+          "duration" : 26227
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e41a90d4860be0a959497e04f2ff3fe"
+    }, {
+      "name" : "invalid element state\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-939', ip: '10.1.0.7', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.SxFRnj}, goog:chromeOptions: {debuggerAddress: localhost:37699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c5fa21a717bff9b0f325363c33bf3f15",
+      "children" : [ {
+        "name" : "TC-7, Data edit.",
+        "uid" : "74e7de196a132aca",
+        "parentUid" : "60ded3fe2dfbfcfed8e135d35295ef62",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629838200195,
+          "stop" : 1629838205924,
+          "duration" : 5729
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60ded3fe2dfbfcfed8e135d35295ef62"
+    }, {
+      "name" : "invalid element state\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-939', ip: '10.1.0.7', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.EAEBt4}, goog:chromeOptions: {debuggerAddress: localhost:39579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4dcaef444dcf888db1b06df68f3ca8b7",
+      "children" : [ {
+        "name" : "TC-8, Data delete.",
+        "uid" : "ea8782ccbc509941",
+        "parentUid" : "a81f52bd57e5d052631480bfb5a6b963",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629838205929,
+          "stop" : 1629838211507,
+          "duration" : 5578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a81f52bd57e5d052631480bfb5a6b963"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#wpSummary\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-939', ip: '10.1.0.7', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.XpxBHm}, goog:chromeOptions: {debuggerAddress: localhost:43691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1700c0528531ccc181004c7396e90154\n*** Element info: {Using=id, value=wpSummary}",
+      "children" : [ {
+        "name" : "TC-6, Data entry.",
+        "uid" : "c32d1bf8ebb4fbc7",
+        "parentUid" : "879e9ddf6ab5a34b60c21153368eca43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629838211512,
+          "stop" : 1629838236963,
+          "duration" : 25451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "879e9ddf6ab5a34b60c21153368eca43"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
