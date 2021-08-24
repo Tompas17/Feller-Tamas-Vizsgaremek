@@ -44,15 +44,8 @@ public WebDriver getDriver() {
     public void setWebDriver() {
         driverUtil = new DriverUtil();
         driver = driverUtil.GetWebDriver();
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--window-size=1920,1080");
-        options.addArguments("--disable-notifications");
-        options.addArguments("--disable-extensions");
-        options.addArguments("start-maximized");
-        options.addArguments("--headless");
-        this.driver = new ChromeDriver(options);
+
+        //this.driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
