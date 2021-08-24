@@ -14,8 +14,6 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverUtil {
     public WebDriver GetWebDriver() {
-        WebDriver webDriver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
@@ -24,6 +22,8 @@ public class DriverUtil {
         options.addArguments("--disable-extensions");
         options.addArguments("start-maximized");
         options.addArguments("--headless");
+        WebDriver webDriver = new ChromeDriver(options);
+
         return webDriver;
     }
 
