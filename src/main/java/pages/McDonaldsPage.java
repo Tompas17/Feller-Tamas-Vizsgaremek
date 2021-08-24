@@ -19,15 +19,19 @@ public class McDonaldsPage {
         this.driver = driver;
     }
 
-    public List<String> dataList() {
+    public String dataList() {
         driver.findElement(TABLE);
         List<String> result = new ArrayList<>();
-        List<WebElement> datas;
-        datas = driver.findElements(TABLE_HEADER);
+        List<WebElement> datas = driver.findElements(TABLE_HEADER);
         for (WebElement data : datas) {
             result.add((data.getText()));
         }
-        return result;
+        String listString = "";
+        for (String s :result)
+        {
+            listString += s;
+        }
+        return listString;
     }
 
     public List<String> TableContent() {
@@ -36,7 +40,7 @@ public class McDonaldsPage {
         for (WebElement nameElement : nameElements) {
             result.add(nameElement.getText());
             try {
-                FileWriter myWriter = new FileWriter("net income.txt", true);
+                FileWriter myWriter = new FileWriter("netincome.txt", true);
                 myWriter.append(nameElement.getText());
                 myWriter.append("\n");
                 myWriter.close();

@@ -2,6 +2,8 @@ package tests;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pages.*;
 import util.DriverUtil;
 
@@ -9,6 +11,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -25,9 +28,9 @@ TalkPage talkPage;
 UserPage userPage;
 protected String username = "AutiTest";
 protected String password = "Codecool123";
-protected String firstText = "Codecool123";
-protected String secondText = "Codecool123";
-protected String thirdText = "Codecool123";
+protected String firstText = "This is the header";
+protected String secondText = "This is the text";
+protected String thirdText = "This is the new text";
 
 public WebDriver getDriver() {
     return driver;
@@ -40,6 +43,13 @@ public WebDriver getDriver() {
     public void setWebDriver() {
         driverUtil = new DriverUtil();
         driver = driverUtil.GetWebDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        this.driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
     }
 
@@ -119,13 +129,15 @@ public WebDriver getDriver() {
         mainPage.goToMcDonaldsPage("McDonalds");
         mcDonalds.dataList();
 
-        List<String> result = mcDonalds.dataList();
-        List<String> expected = new ArrayList<>();
-        expected.add("Year Revenue\n" +
+        String result = mcDonalds.dataList();
+        String expected = "Year Revenue\n" +
                 "in mil. USD$ Net income\n" +
                 "in mil. USD$ Total assets\n" +
                 "in mil. USD$ Price per share\n" +
-                "in USD$ Locations[40] Employees Ref.");
+                "in USD$ Locations[40] Employees Ref.";
+
+
+
         Assertions.assertEquals(expected, result);
     }
 
@@ -207,7 +219,23 @@ public WebDriver getDriver() {
 
         List<String> result = mcDonalds.TableContent();
         List<String> expected = new ArrayList<>();
-        expected.add("19,117, 20,895, 22,787, 23,522, 22,745, 24,075, 27,006, 27,567, 28,106, 27,441, 25,413, 24,622, 22,820, 21,025, 21,077");
+        //expected.add("19,117, 20,895, 22,787, 23,522, 22,745, 24,075, 27,006, 27,567, 28,106, 27,441, 25,413, 24,622, 22,820, 21,025, 21,077");
+        expected.add("19,117");
+        expected.add("20,895");
+        expected.add("22,787");
+        expected.add("23,522");
+        expected.add("22,745");
+        expected.add("24,075");
+        expected.add("27,006");
+        expected.add("27,567");
+        expected.add("28,106");
+        expected.add("27,441");
+        expected.add("25,413");
+        expected.add("24,622");
+        expected.add("22,820");
+        expected.add("21,025");
+        expected.add("21,077");
+
         Assertions.assertEquals(expected, result);
     }
 
