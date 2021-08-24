@@ -6,8 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.sql.SQLOutput;
 import java.util.List;
 
 public class SpecialPage {
@@ -53,8 +51,8 @@ public class SpecialPage {
         while( driver.findElement(MORE_BUTTON).isDisplayed() && l <= 2 ) {
             l++;
             title = driver.findElements(TITLE);
-            for (int j = 0; j < title.size(); j++) {
-                WebElement link = title.get(j).findElement(EVERYL_TITLE);
+            for (WebElement webElement : title) {
+                WebElement link = webElement.findElement(EVERYL_TITLE);
                 System.out.println(link.getText());
             }
 
@@ -69,19 +67,11 @@ public class SpecialPage {
         }
     }
     public boolean firstWord(){
-        boolean isfirstWord = false;
-        if (driver.findElement(FIRSTCONTROL).getText().contains("vitamin")){
-            isfirstWord = true;
-        }
-        return isfirstWord;
+        return driver.findElement(FIRSTCONTROL).getText().contains("vitamin");
     }
 
     public boolean secondWord() {
-        boolean isSecondWord = false;
-        if (driver.findElement(FIRSTCONTROL).getText().contains("types")) {
-            isSecondWord = true;
-        }
-        return isSecondWord;
+        return driver.findElement(FIRSTCONTROL).getText().contains("types");
     }
 
 

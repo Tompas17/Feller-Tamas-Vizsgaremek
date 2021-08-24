@@ -49,19 +49,19 @@ public class MainPage {
         return error.isDisplayed();
     }
 
-    public McDonaldsPage goToMcDonaldsPage(String page) {
+    public void goToMcDonaldsPage(String page) {
         driver.findElement(SEARCH_INPUT).sendKeys("McDonalds");
         driver.findElement(SEARCH_BUTTON).click();
-        return new McDonaldsPage(driver);
+        new McDonaldsPage(driver);
     }
 
     public void goToUserPage () {
         driver.findElement(USER_PAGE).click();
     }
 
-    public SpecialPage morePagesLists(String searchWords) {
+    public void morePagesLists(String searchWords) {
         driver.findElement(SEARCH_INPUT).sendKeys(searchWords);
         driver.findElement(SEARCH_BUTTON).click();
-        return new SpecialPage(driver);
+        new SpecialPage(driver);
     }
 }

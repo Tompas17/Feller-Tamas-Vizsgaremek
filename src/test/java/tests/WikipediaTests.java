@@ -1,17 +1,10 @@
 package tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
+
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import pages.*;
 import util.DriverUtil;
-
-import java.io.ByteArrayInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,7 +17,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class WikipediaTests {
 
 private WebDriver driver;
-private DriverUtil driverUtil;
 MenuPage menuPage;
 MainPage mainPage;
 LoggedInPage loggedInPage;
@@ -47,13 +39,10 @@ public WebDriver getDriver() {
 
     @BeforeEach
     public void setWebDriver() {
-        driverUtil = new DriverUtil();
+        DriverUtil driverUtil = new DriverUtil();
         driver = driverUtil.GetWebDriver();
-
-        //this.driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-
     }
 
     @Test
@@ -81,7 +70,7 @@ public WebDriver getDriver() {
         mainPage.typePassword("123");
         mainPage.clickLogIn();
         assertTrue(mainPage.inValidLog());
-}
+    }
 
     @Test
     @DisplayName("TC-3, Log out.")
@@ -96,10 +85,8 @@ public WebDriver getDriver() {
     mainPage.clickLogIn();
     loggedInPage.logOut();
 
-
-
-        String expected = "Log in";
-        Assertions.assertEquals(expected, loggedInPage.loggingOut());
+    String expected = "Log in";
+    Assertions.assertEquals(expected, loggedInPage.loggingOut());
     }
 
     @Test
@@ -139,8 +126,6 @@ public WebDriver getDriver() {
                 "in mil. USD$ Price per share\n" +
                 "in USD$ Locations[40] Employees Ref.";
 
-
-
         Assertions.assertEquals(expected, result);
     }
 
@@ -165,8 +150,6 @@ public WebDriver getDriver() {
         talkPage.publishPage();
 
         assertTrue(talkPage.isTextBoxCreated());
-
-        talkPage.takeScreenshot();
     }
 
     @Test
@@ -190,7 +173,6 @@ public WebDriver getDriver() {
 
         assertTrue(talkPage.isTextBoxEdited());
 
-       talkPage.takeScreenshot();
     }
 
     @Test
@@ -213,7 +195,7 @@ public WebDriver getDriver() {
 
         assertTrue(talkPage.isTextBoxDeleted());
 
-        talkPage.takeScreenshot();
+
     }
 
     @Test
@@ -290,9 +272,7 @@ public WebDriver getDriver() {
         expected.add("ever.\n");
 
         Assertions.assertEquals(expected, result);
-
-        talkPage.takeScreenshot();
-}
+    }
 
 
     @Test
