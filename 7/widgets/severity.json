@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e76484742f02cece",
+  "name" : "TC-7, Data edit.",
+  "time" : {
+    "start" : 1629803107862,
+    "stop" : 1629803107990,
+    "duration" : 128
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e0a5ade392edeaa1",
+  "name" : "TC-1, Log in with valid datas.",
+  "time" : {
+    "start" : 1629803108291,
+    "stop" : 1629803108424,
+    "duration" : 133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "88402a5977c882d",
+  "name" : "TC-6, Data entry.",
+  "time" : {
+    "start" : 1629803108149,
+    "stop" : 1629803108288,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e6d3ba0c897ea554",
+  "name" : "TC-2, Log in with invalid datas.",
+  "time" : {
+    "start" : 1629803107128,
+    "stop" : 1629803107283,
+    "duration" : 155
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c8d29d4cdb4ef016",
+  "name" : "TC-4, Privacy and policy.",
+  "time" : {
+    "start" : 1629803107289,
+    "stop" : 1629803107429,
+    "duration" : 140
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b44cc39b8043625",
+  "name" : "TC-5, Listing data from a table.",
+  "time" : {
+    "start" : 1629803102377,
+    "stop" : 1629803107030,
+    "duration" : 4653
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7eb95c217d3bc488",
+  "name" : "TC-3, Log out.",
+  "time" : {
+    "start" : 1629803107433,
+    "stop" : 1629803107570,
+    "duration" : 137
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84e740182e9956dd",
+  "name" : "TC-8, Data delete.",
+  "time" : {
+    "start" : 1629803107993,
+    "stop" : 1629803108146,
+    "duration" : 153
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3dd111666110d41d",
+  "name" : "TC-10, Write data from file.",
+  "time" : {
+    "start" : 1629803107582,
+    "stop" : 1629803107716,
+    "duration" : 134
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "65ccaaa4d25d3726",
+  "name" : "TC-9, Save data to file.",
+  "time" : {
+    "start" : 1629803107723,
+    "stop" : 1629803107856,
+    "duration" : 133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
