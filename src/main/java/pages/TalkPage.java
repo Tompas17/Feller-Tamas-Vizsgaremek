@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -36,13 +37,22 @@ public class TalkPage {
         driver.findElement(PUBLISH_PAGE_BUTTON).click();
     }
     public void EDIT_SOURCE() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(EDIT_SOURCE));
         driver.findElement(EDIT_SOURCE).click();
     }
     public void EDIT_TEXTBOX(String thirdText) {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(TEXT_BOX));
+
+
+
         driver.findElement(TEXT_BOX).clear();
         driver.findElement(TEXT_BOX).sendKeys(thirdText);
     }
     public void DELETE_TEXTBOX() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(TEXT_BOX));
         driver.findElement(TEXT_BOX).clear();
     }
 
