@@ -1,0 +1,139 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.WikipediaTests",
+    "children" : [ {
+      "name" : "TC-5, Listing data from a table.",
+      "uid" : "29b6950c62e9e894",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803306459,
+        "stop" : 1629803309050,
+        "duration" : 2591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-2, Log in with invalid datas.",
+      "uid" : "41447507ae9425c0",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803309187,
+        "stop" : 1629803309356,
+        "duration" : 169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-4, Privacy and policy.",
+      "uid" : "742b165be0ab2f71",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803309369,
+        "stop" : 1629803309509,
+        "duration" : 140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-3, Log out.",
+      "uid" : "7c02037454be2cac",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803309516,
+        "stop" : 1629803309653,
+        "duration" : 137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-10, Write data from file.",
+      "uid" : "d77ab912908244a3",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803309659,
+        "stop" : 1629803309847,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-9, Save data to file.",
+      "uid" : "79604060dfd5d59b",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803309852,
+        "stop" : 1629803310008,
+        "duration" : 156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-7, Data edit.",
+      "uid" : "454beafae17322a4",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803310016,
+        "stop" : 1629803310227,
+        "duration" : 211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-8, Data delete.",
+      "uid" : "e469cda74548d4c1",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803310233,
+        "stop" : 1629803310393,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-6, Data entry.",
+      "uid" : "b06e83c5b044eb49",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803310399,
+        "stop" : 1629803310558,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-1, Log in with valid datas.",
+      "uid" : "330ad54d1de009e8",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629803310562,
+        "stop" : 1629803310724,
+        "duration" : 162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d6da9b77d556c8f365c7bd67b43f0e2"
+  } ],
+  "name" : "suites"
+}
