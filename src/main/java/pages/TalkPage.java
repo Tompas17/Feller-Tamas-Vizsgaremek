@@ -1,6 +1,7 @@
 package pages;
 
 import io.qameta.allure.Allure;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -12,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TalkPage {
@@ -102,6 +104,15 @@ public class TalkPage {
         return result;
     }
 
+    public void takeScreenshot() {
+        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        File file = screenshot.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file, new File("./screenshot.png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 

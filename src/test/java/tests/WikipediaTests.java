@@ -165,6 +165,8 @@ public WebDriver getDriver() {
         talkPage.publishPage();
 
         assertTrue(talkPage.isTextBoxCreated());
+
+        talkPage.takeScreenshot();
     }
 
     @Test
@@ -185,9 +187,10 @@ public WebDriver getDriver() {
         talkPage.EDIT_SOURCE();
         talkPage.EDIT_TEXTBOX(thirdText);
         talkPage.publishPage();
-        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 
         assertTrue(talkPage.isTextBoxEdited());
+
+       talkPage.takeScreenshot();
     }
 
     @Test
@@ -209,6 +212,8 @@ public WebDriver getDriver() {
         talkPage.DELETE_TEXTBOX();
 
         assertTrue(talkPage.isTextBoxDeleted());
+
+        talkPage.takeScreenshot();
     }
 
     @Test
@@ -285,6 +290,8 @@ public WebDriver getDriver() {
         expected.add("ever.\n");
 
         Assertions.assertEquals(expected, result);
+
+        talkPage.takeScreenshot();
 }
 
 
