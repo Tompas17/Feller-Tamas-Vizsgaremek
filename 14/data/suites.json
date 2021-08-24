@@ -1,0 +1,152 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.WikipediaTests",
+    "children" : [ {
+      "name" : "TC-5, Listing data from a table.",
+      "uid" : "4863918f69e25d95",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831808687,
+        "stop" : 1629831825881,
+        "duration" : 17194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-2, Log in with invalid datas.",
+      "uid" : "52edd70e0537446e",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831826034,
+        "stop" : 1629831829076,
+        "duration" : 3042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-4, Privacy and policy.",
+      "uid" : "251c95218a278bff",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831829080,
+        "stop" : 1629831836572,
+        "duration" : 7492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-3, Log out.",
+      "uid" : "31402d5bbbe2ad59",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831836577,
+        "stop" : 1629831843848,
+        "duration" : 7271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-10, Write data from file.",
+      "uid" : "366eba528accbf3a",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629831843851,
+        "stop" : 1629831872176,
+        "duration" : 28325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-11, Multi-page list",
+      "uid" : "31b147183c7a534d",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831872187,
+        "stop" : 1629831938568,
+        "duration" : 66381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-9, Save data to file.",
+      "uid" : "ec942c5aff31178b",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831938573,
+        "stop" : 1629831944910,
+        "duration" : 6337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-7, Data edit.",
+      "uid" : "9817996d89f07c8a",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629831944913,
+        "stop" : 1629831951607,
+        "duration" : 6694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-8, Data delete.",
+      "uid" : "56dece072dd0b3ec",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629831951611,
+        "stop" : 1629831957206,
+        "duration" : 5595
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-6, Data entry.",
+      "uid" : "39faa60ee6d0c469",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629831957210,
+        "stop" : 1629831983615,
+        "duration" : 26405
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-1, Log in with valid datas.",
+      "uid" : "70622e7097377837",
+      "parentUid" : "2d6da9b77d556c8f365c7bd67b43f0e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629831983623,
+        "stop" : 1629831987990,
+        "duration" : 4367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d6da9b77d556c8f365c7bd67b43f0e2"
+  } ],
+  "name" : "suites"
+}
