@@ -58,7 +58,6 @@ public class TalkPage {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(TEXT_BOX));
         driver.findElement(TEXT_BOX).clear();
-        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
 

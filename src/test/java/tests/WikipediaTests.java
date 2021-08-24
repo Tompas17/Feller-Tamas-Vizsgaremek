@@ -1,13 +1,17 @@
 package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.*;
 import util.DriverUtil;
 
+import java.io.ByteArrayInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -181,6 +185,7 @@ public WebDriver getDriver() {
         talkPage.EDIT_SOURCE();
         talkPage.EDIT_TEXTBOX(thirdText);
         talkPage.publishPage();
+        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 
         assertTrue(talkPage.isTextBoxEdited());
     }
