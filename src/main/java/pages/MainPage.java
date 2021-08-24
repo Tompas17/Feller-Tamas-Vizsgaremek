@@ -58,4 +58,10 @@ public class MainPage {
     public void goToUserPage () {
         driver.findElement(USER_PAGE).click();
     }
+
+    public SpecialPage morePagesLists(String searchWords) {
+        driver.findElement(SEARCH_INPUT).sendKeys(searchWords);
+        driver.findElement(SEARCH_BUTTON).click();
+        return new SpecialPage(driver);
+    }
 }

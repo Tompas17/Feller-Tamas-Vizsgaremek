@@ -2,6 +2,9 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -41,6 +44,28 @@ public class TalkPage {
     }
     public void DELETE_TEXTBOX() {
         driver.findElement(TEXT_BOX).clear();
+    }
+
+    public boolean isTextBoxDeleted() {
+        driver.findElement(HEADLINE).getText();
+        return true;
+    }
+
+    public boolean isTextBoxEdited() {
+        try {
+            driver.findElement(NEW_SECTION).isDisplayed();
+        }catch (Exception e){
+            return false;
+        }
+        return true;
+    }
+    public boolean isTextBoxCreated() {
+        try {
+            driver.findElement(EDIT_SOURCE).isDisplayed();
+        }catch (Exception e){
+            return false;
+        }
+        return true;
     }
 
     public String[] writeFromFile() throws FileNotFoundException {

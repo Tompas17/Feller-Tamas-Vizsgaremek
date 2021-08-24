@@ -27,6 +27,7 @@ LoggedInPage loggedInPage;
 McDonaldsPage mcDonalds;
 TalkPage talkPage;
 UserPage userPage;
+SpecialPage specialPage;
 protected String username = "AutiTest";
 protected String password = "Codecool123";
 protected String firstText = "This is the header";
@@ -158,6 +159,8 @@ public WebDriver getDriver() {
         talkPage.writeHeadLine(firstText);
         talkPage.writeTextBox(secondText);
         talkPage.publishPage();
+
+        assertTrue(talkPage.isTextBoxCreated());
     }
 
     @Test
@@ -179,6 +182,7 @@ public WebDriver getDriver() {
         talkPage.EDIT_TEXTBOX(thirdText);
         talkPage.publishPage();
 
+        assertTrue(talkPage.isTextBoxEdited());
     }
 
     @Test
@@ -198,6 +202,8 @@ public WebDriver getDriver() {
         userPage.goToTalkPage();
         talkPage.EDIT_SOURCE();
         talkPage.DELETE_TEXTBOX();
+
+        assertTrue(talkPage.isTextBoxDeleted());
     }
 
     @Test
@@ -266,14 +272,38 @@ public WebDriver getDriver() {
 
         List<String> result = Arrays.asList(talkPage.writeFromFile());
         List<String> expected = new ArrayList<>();
-        expected.add("This\n" +
-                ", is\n" +
-                ", the\n" +
-                ", best\n" +
-                ", page\n" +
-                ", ever.\n");
+        expected.add("This\n");
+        expected.add("is\n");
+        expected.add("the\n");
+        expected.add("best\n");
+        expected.add("page\n");
+        expected.add("ever.\n");
+
         Assertions.assertEquals(expected, result);
 }
+
+
+    @Test
+    @DisplayName("TC-11, Multi-page list")
+    public void morePagesListsTest() {
+        mainPage = new MainPage(getDriver());
+        menuPage = new MenuPage((getDriver()));
+        menuPage.goToWikiPedia();
+        mainPage = menuPage.ClickEnglishButton();
+        mainPage.goToLoginPage();
+        mainPage.typeUserName(username);
+        mainPage.typePassword(password);
+        mainPage.clickLogIn();
+        mainPage.morePagesLists("vitamin types");
+        specialPage = new SpecialPage(getDriver());
+        specialPage.clickOn500Button();
+        specialPage.clickNextButton();
+        specialPage.morePagesLists();
+
+        Assertions.assertTrue(specialPage.firstWord() || specialPage.secondWord());
+}
+
+
 
 
 
