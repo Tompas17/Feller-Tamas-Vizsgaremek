@@ -1,0 +1,111 @@
+[ {
+  "uid" : "fce91fc70776ce33",
+  "name" : "TC-11, Multi-page list",
+  "time" : {
+    "start" : 1629833494704,
+    "stop" : 1629833560834,
+    "duration" : 66130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf10b0e3d503dc74",
+  "name" : "TC-3, Log out.",
+  "time" : {
+    "start" : 1629833463346,
+    "stop" : 1629833468414,
+    "duration" : 5068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97ca8dc80bb21ccd",
+  "name" : "TC-5, Listing data from a table.",
+  "time" : {
+    "start" : 1629833444458,
+    "stop" : 1629833454735,
+    "duration" : 10277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6758122c8152852",
+  "name" : "TC-6, Data entry.",
+  "time" : {
+    "start" : 1629833583434,
+    "stop" : 1629833609181,
+    "duration" : 25747
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "832763d44ba28114",
+  "name" : "TC-8, Data delete.",
+  "time" : {
+    "start" : 1629833577386,
+    "stop" : 1629833583430,
+    "duration" : 6044
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "99ea0fe9d91a0799",
+  "name" : "TC-7, Data edit.",
+  "time" : {
+    "start" : 1629833570324,
+    "stop" : 1629833577383,
+    "duration" : 7059
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3b36d436b0b9b6c7",
+  "name" : "TC-10, Write data from file.",
+  "time" : {
+    "start" : 1629833468417,
+    "stop" : 1629833494695,
+    "duration" : 26278
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9ad1fd1ef9a5b410",
+  "name" : "TC-1, Log in with valid datas.",
+  "time" : {
+    "start" : 1629833609185,
+    "stop" : 1629833613759,
+    "duration" : 4574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ed8505776d1a10a",
+  "name" : "TC-2, Log in with invalid datas.",
+  "time" : {
+    "start" : 1629833454812,
+    "stop" : 1629833457479,
+    "duration" : 2667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf8b109cebb78afe",
+  "name" : "TC-4, Privacy and policy.",
+  "time" : {
+    "start" : 1629833457483,
+    "stop" : 1629833463343,
+    "duration" : 5860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "361db7bf6cb43441",
+  "name" : "TC-9, Save data to file.",
+  "time" : {
+    "start" : 1629833560848,
+    "stop" : 1629833570321,
+    "duration" : 9473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
