@@ -217,7 +217,7 @@ public WebDriver getDriver() {
 
         List<String> result = mcDonalds.TableContent();
         List<String> expected = new ArrayList<>();
-        //expected.add("19,117, 20,895, 22,787, 23,522, 22,745, 24,075, 27,006, 27,567, 28,106, 27,441, 25,413, 24,622, 22,820, 21,025, 21,077");
+
         expected.add("19,117");
         expected.add("20,895");
         expected.add("22,787");
