@@ -1,0 +1,194 @@
+{
+  "uid" : "35811e7068b52d1a",
+  "name" : "TC-10, Write data from file.",
+  "fullName" : "tests.WikipediaTests.writeFromFile",
+  "historyId" : "d581c1e0bf291f8b8f54751fb2799775",
+  "time" : {
+    "start" : 1629832990051,
+    "stop" : 1629833016426,
+    "duration" : 26375
+  },
+  "description" : "",
+  "status" : "broken",
+  "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"wpTextbox1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.96', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.awOSIF}, goog:chromeOptions: {debuggerAddress: localhost:35065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 50c7a7680e570deb95ddb771beef31ec\n*** Element info: {Using=xpath, value=//*[@id=\"wpTextbox1\"]}",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"wpTextbox1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.96', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.awOSIF}, goog:chromeOptions: {debuggerAddress: localhost:35065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 50c7a7680e570deb95ddb771beef31ec\n*** Element info: {Using=xpath, value=//*[@id=\"wpTextbox1\"]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat pages.TalkPage.writeTextBox(TalkPage.java:38)\n\tat tests.WikipediaTests.writeFromFile(WikipediaTests.java:264)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:118)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:129)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:189)\n\tat java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)\n\tat java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)\n\tat java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)\n\tat java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setWebDriver",
+    "time" : {
+      "start" : 1629832990051,
+      "stop" : 1629832990310,
+      "duration" : 259
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitWebDriver",
+    "time" : {
+      "start" : 1629833016347,
+      "stop" : 1629833016424,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-737"
+  }, {
+    "name" : "thread",
+    "value" : "3113@fv-az47-737.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.WikipediaTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.WikipediaTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "writeFromFile"
+  }, {
+    "name" : "suite",
+    "value" : "tests.WikipediaTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 10,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "366eba528accbf3a",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/14//#testresult/366eba528accbf3a",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"wpTextbox1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-939', ip: '10.1.0.72', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.7KSIx2}, goog:chromeOptions: {debuggerAddress: localhost:35125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 09e16d38a73dab64f98f5a7daa05014d\n*** Element info: {Using=xpath, value=//*[@id=\"wpTextbox1\"]}",
+        "time" : {
+          "start" : 1629831843851,
+          "stop" : 1629831872176,
+          "duration" : 28325
+        }
+      }, {
+        "uid" : "dcb7fee7ef7098f5",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/13//#testresult/dcb7fee7ef7098f5",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"wpTextbox1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.1.84', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.nqf2Fu}, goog:chromeOptions: {debuggerAddress: localhost:36691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bb8805182905c14cc4f29772b4602b17\n*** Element info: {Using=xpath, value=//*[@id=\"wpTextbox1\"]}",
+        "time" : {
+          "start" : 1629826485925,
+          "stop" : 1629826513712,
+          "duration" : 27787
+        }
+      }, {
+        "uid" : "4fd5f54cd8285cf2",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/12//#testresult/4fd5f54cd8285cf2",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"wpTextbox1\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.238', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.9TNsXW}, goog:chromeOptions: {debuggerAddress: localhost:45891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cbaa57c39c87981e78686be9832341c4\n*** Element info: {Using=xpath, value=//*[@id=\"wpTextbox1\"]}",
+        "time" : {
+          "start" : 1629805441674,
+          "stop" : 1629805468863,
+          "duration" : 27189
+        }
+      }, {
+        "uid" : "b8d81eec8b080f51",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/11//#testresult/b8d81eec8b080f51",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.157', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55b863428a63 <unknown>\n#1 0x55b86319d458 <unknown>\n#2 0x55b8631c02e3 <unknown>\n#3 0x55b8631bbe9f <unknown>\n#4 0x55b8631f5b72 <unknown>\n#5 0x55b8631effd3 <unknown>\n#6 0x55b8631c6514 <unknown>\n#7 0x55b8631c7505 <unknown>\n#8 0x55b863454e2e <unknown>\n#9 0x55b86346a886 <unknown>\n#10 0x55b863455d75 <unknown>\n#11 0x55b86346bd94 <unknown>\n#12 0x55b86344c8eb <unknown>\n#13 0x55b863486cd8 <unknown>\n#14 0x55b863486e58 <unknown>\n#15 0x55b8634a0dfd <unknown>\n#16 0x7ff8b2276609 start_thread\n",
+        "time" : {
+          "start" : 1629804993155,
+          "stop" : 1629804993287,
+          "duration" : 132
+        }
+      }, {
+        "uid" : "3bdbfa3796aea016",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/10//#testresult/3bdbfa3796aea016",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555aca38ca63 <unknown>\n#1 0x555aca101458 <unknown>\n#2 0x555aca1242e3 <unknown>\n#3 0x555aca11fe9f <unknown>\n#4 0x555aca159b72 <unknown>\n#5 0x555aca153fd3 <unknown>\n#6 0x555aca12a514 <unknown>\n#7 0x555aca12b505 <unknown>\n#8 0x555aca3b8e2e <unknown>\n#9 0x555aca3ce886 <unknown>\n#10 0x555aca3b9d75 <unknown>\n#11 0x555aca3cfd94 <unknown>\n#12 0x555aca3b08eb <unknown>\n#13 0x555aca3eacd8 <unknown>\n#14 0x555aca3eae58 <unknown>\n#15 0x555aca404dfd <unknown>\n#16 0x7f2955965609 start_thread\n",
+        "time" : {
+          "start" : 1629803691177,
+          "stop" : 1629803691320,
+          "duration" : 143
+        }
+      }, {
+        "uid" : "5529bd1bf80216a6",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/9//#testresult/5529bd1bf80216a6",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-737', ip: '10.1.0.91', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5559df296a63 <unknown>\n#1 0x5559df00b458 <unknown>\n#2 0x5559df02e2e3 <unknown>\n#3 0x5559df029e9f <unknown>\n#4 0x5559df063b72 <unknown>\n#5 0x5559df05dfd3 <unknown>\n#6 0x5559df034514 <unknown>\n#7 0x5559df035505 <unknown>\n#8 0x5559df2c2e2e <unknown>\n#9 0x5559df2d8886 <unknown>\n#10 0x5559df2c3d75 <unknown>\n#11 0x5559df2d9d94 <unknown>\n#12 0x5559df2ba8eb <unknown>\n#13 0x5559df2f4cd8 <unknown>\n#14 0x5559df2f4e58 <unknown>\n#15 0x5559df30edfd <unknown>\n#16 0x7f4a674ed609 start_thread\n",
+        "time" : {
+          "start" : 1629803510590,
+          "stop" : 1629803510742,
+          "duration" : 152
+        }
+      }, {
+        "uid" : "d77ab912908244a3",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/8//#testresult/d77ab912908244a3",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-939', ip: '10.1.0.8', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5601de987a63 <unknown>\n#1 0x5601de6fc458 <unknown>\n#2 0x5601de71f2e3 <unknown>\n#3 0x5601de71ae9f <unknown>\n#4 0x5601de754b72 <unknown>\n#5 0x5601de74efd3 <unknown>\n#6 0x5601de725514 <unknown>\n#7 0x5601de726505 <unknown>\n#8 0x5601de9b3e2e <unknown>\n#9 0x5601de9c9886 <unknown>\n#10 0x5601de9b4d75 <unknown>\n#11 0x5601de9cad94 <unknown>\n#12 0x5601de9ab8eb <unknown>\n#13 0x5601de9e5cd8 <unknown>\n#14 0x5601de9e5e58 <unknown>\n#15 0x5601de9ffdfd <unknown>\n#16 0x7fc25d997609 start_thread\n",
+        "time" : {
+          "start" : 1629803309659,
+          "stop" : 1629803309847,
+          "duration" : 188
+        }
+      }, {
+        "uid" : "3dd111666110d41d",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/7//#testresult/3dd111666110d41d",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-215', ip: '10.1.0.225', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5557c1d75a63 <unknown>\n#1 0x5557c1aea458 <unknown>\n#2 0x5557c1b0d2e3 <unknown>\n#3 0x5557c1b08e9f <unknown>\n#4 0x5557c1b42b72 <unknown>\n#5 0x5557c1b3cfd3 <unknown>\n#6 0x5557c1b13514 <unknown>\n#7 0x5557c1b14505 <unknown>\n#8 0x5557c1da1e2e <unknown>\n#9 0x5557c1db7886 <unknown>\n#10 0x5557c1da2d75 <unknown>\n#11 0x5557c1db8d94 <unknown>\n#12 0x5557c1d998eb <unknown>\n#13 0x5557c1dd3cd8 <unknown>\n#14 0x5557c1dd3e58 <unknown>\n#15 0x5557c1deddfd <unknown>\n#16 0x7fd2ab942609 start_thread\n",
+        "time" : {
+          "start" : 1629803107582,
+          "stop" : 1629803107716,
+          "duration" : 134
+        }
+      }, {
+        "uid" : "cf97a0142de53844",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/6//#testresult/cf97a0142de53844",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-444', ip: '10.1.0.186', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5598f9134a63 <unknown>\n#1 0x5598f8ea9458 <unknown>\n#2 0x5598f8ecc2e3 <unknown>\n#3 0x5598f8ec7e9f <unknown>\n#4 0x5598f8f01b72 <unknown>\n#5 0x5598f8efbfd3 <unknown>\n#6 0x5598f8ed2514 <unknown>\n#7 0x5598f8ed3505 <unknown>\n#8 0x5598f9160e2e <unknown>\n#9 0x5598f9176886 <unknown>\n#10 0x5598f9161d75 <unknown>\n#11 0x5598f9177d94 <unknown>\n#12 0x5598f91588eb <unknown>\n#13 0x5598f9192cd8 <unknown>\n#14 0x5598f9192e58 <unknown>\n#15 0x5598f91acdfd <unknown>\n#16 0x7f28f328f609 start_thread\n",
+        "time" : {
+          "start" : 1629717285423,
+          "stop" : 1629717285620,
+          "duration" : 197
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "35811e7068b52d1a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #1163902990",
+  "buildUrl" : "https://github.com/Tompas17/Feller-Tamas-Vizsgaremek/actions/runs/1163902990",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/15/"
+} ]
