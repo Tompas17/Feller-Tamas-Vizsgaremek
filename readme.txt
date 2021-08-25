@@ -24,3 +24,6 @@ Futtatás lépései:
     4. Jelentés készítése: 'mvn allure:serve' parancs.
     5. Jelentés készítése fájlba: 'mvn allure:report' parancs.
     (target/site/allure-maven/index.html)
+
+A github automatikusan lefuttatja pusholás után a teszteket és a report itt tekinthető meg: https://tompas17.github.io/Feller-Tamas-Vizsgaremek/19/
+A manuális tesztek futtatásáról a Tesztmenedzser excel file-ban írtam,ami megtalálható a projekt mappájában.
