@@ -1,0 +1,161 @@
+{
+  "uid" : "6089d61396d89173",
+  "name" : "TC-11, Multi-page list",
+  "fullName" : "tests.WikipediaTests.morePagesListsTest",
+  "historyId" : "cf1b58b4b871781fd850a11f96afd8a9",
+  "time" : {
+    "start" : 1629875112802,
+    "stop" : 1629875181307,
+    "duration" : 68505
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setWebDriver",
+    "time" : {
+      "start" : 1629875112803,
+      "stop" : 1629875113075,
+      "duration" : 272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "quitWebDriver",
+    "time" : {
+      "start" : 1629875181233,
+      "stop" : 1629875181307,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-215"
+  }, {
+    "name" : "thread",
+    "value" : "3270@fv-az39-215.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.WikipediaTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.WikipediaTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "morePagesListsTest"
+  }, {
+    "name" : "suite",
+    "value" : "tests.WikipediaTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "77424d62b09b286a",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/19//#testresult/77424d62b09b286a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629838122426,
+          "stop" : 1629838193743,
+          "duration" : 71317
+        }
+      }, {
+        "uid" : "97804ad5986a14ba",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/18//#testresult/97804ad5986a14ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629837976150,
+          "stop" : 1629838094568,
+          "duration" : 118418
+        }
+      }, {
+        "uid" : "2618fd074f0c5ccb",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/17//#testresult/2618fd074f0c5ccb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629835105736,
+          "stop" : 1629835179957,
+          "duration" : 74221
+        }
+      }, {
+        "uid" : "fce91fc70776ce33",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/16//#testresult/fce91fc70776ce33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629833494704,
+          "stop" : 1629833560834,
+          "duration" : 66130
+        }
+      }, {
+        "uid" : "1cb19a96ef986c4b",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/15//#testresult/1cb19a96ef986c4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629833016442,
+          "stop" : 1629833082211,
+          "duration" : 65769
+        }
+      }, {
+        "uid" : "31b147183c7a534d",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/14//#testresult/31b147183c7a534d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629831872187,
+          "stop" : 1629831938568,
+          "duration" : 66381
+        }
+      }, {
+        "uid" : "4943d6580cf738e6",
+        "reportUrl" : "https://Tompas17.github.io/Feller-Tamas-Vizsgaremek/13//#testresult/4943d6580cf738e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629826513722,
+          "stop" : 1629826540186,
+          "duration" : 26464
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6089d61396d89173.json",
+  "parameterValues" : [ ]
+}
